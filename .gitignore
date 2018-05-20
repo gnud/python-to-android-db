@@ -109,3 +109,4 @@ databuilder/management/commands/old/**
 data/**
 *.sql
 *.sqlite3
+mymodels.py
