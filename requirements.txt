@@ -1,0 +1,13 @@
+Django>=2
+django-extensions>=2
+djangorestframework==3.7.7
+django-crispy-forms==1.7.0
+channels==1.1.8
+Pillow
+pyexcel-ods
+django-dbdump
+django-dbbackup
+
+# dev
+coverage
+coverage-badge

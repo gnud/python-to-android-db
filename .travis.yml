@@ -1,0 +1,11 @@
+dist: artful
+sudo: false
+language: python
+branches:
+  only:
+    - master
+matrix:
+  include:
+    - python: 3.6
+install: pip install -r requirements.txt
+script: python manage.py test

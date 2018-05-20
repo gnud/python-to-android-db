@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Project ignored files
+.idea/**
+databuilder/management/commands/old/**
+data/**
+*.sql
+*.sqlite3
+mymodels.py
