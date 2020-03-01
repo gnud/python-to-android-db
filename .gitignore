@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
 
 # C extensions
@@ -108,5 +107,7 @@ venv.bak/
 databuilder/management/commands/old/**
 data/**
 *.sql
-*.sqlite3
 mymodels.py
+dumps/**
+migrations/**
+**/migrations/*.py

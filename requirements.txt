@@ -1,13 +1,10 @@
-Django>=2
+Django==2.2
 django-extensions>=2
-djangorestframework==3.9.1
-django-crispy-forms==1.7.0
-channels==1.1.8
-Pillow
-pyexcel-ods
-django-dbdump
 django-dbbackup
 
 # dev
 coverage
 coverage-badge
+
+# test
+sqlvalidator
