@@ -15,7 +15,7 @@ class Command(BaseCommand):
         Usage:
         ./manage.py toandroid
 
-        SQL dump of the models defined in mymodels.py
+        SQL dump of the models defined in models.py
         """
 
     help = 'Dumps SQL of the django structure for Android SQLite, excluding django related tables/'
@@ -51,7 +51,7 @@ class Command(BaseCommand):
     def extract_user_tables():
         # noinspection SpellCheckingInspection
         """
-                Extract user created model tables defined in mymodels.py.
+                Extract user created model tables defined in models.py.
 
                  @:rtype List
                 """
@@ -69,7 +69,7 @@ class Command(BaseCommand):
         )
 
         # noinspection SpellCheckingInspection
-        assert len(ddl_data_clean), 'Try adding some models in mymodels.py\n then run:\n./manage migrate'
+        assert len(ddl_data_clean), 'Try adding some models in models.py\n then run:\n./manage migrate'
 
         # Confirm each line for valid SQL query line
         result = any([sqlvalidator.parse(cmd).is_valid() for cmd in ddl_data_clean])

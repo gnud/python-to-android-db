@@ -10,12 +10,12 @@ sample_name = 'Bob Bobski'
 
 class TestTask1(TestCase):
     def setUp(self):
-        self.model_name = models.ContactSample.__name__.lower()
+        self.model_name = models.SampleTest.__name__.lower()
 
-        models.ContactSample.objects.create(name=sample_name)
+        models.SampleTest.objects.create(name=sample_name)
 
     def test_dump(self):
-        total_records = models.ContactSample.objects.all().count()
+        total_records = models.SampleTest.objects.all().count()
         print(f'Your model has {total_records} dummy record.')
 
         # noinspection SpellCheckingInspection
