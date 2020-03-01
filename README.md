@@ -43,3 +43,7 @@ Samples can be found [here](docs/models.md).
 coverage run --source='.' manage.py test
 coverage-badge -f -o coverage.svg
 ```
+
+## TODOS
+
+fix coverage to exclude empty files i.e some __init__.py

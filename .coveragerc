@@ -1,0 +1,29 @@
+[run]
+branch = True
+source = .
+omit =
+        __init__.py
+        */usr/local/lib*
+        */__init__.py
+        test/*
+        *\__init__.py
+         *__init__*
+
+
+[report]
+omit =
+         *__init__*
+        __init__.py
+        */usr/local/lib*
+        */__init__.py
+        test/*
+        *\__init__.py
+
+exclude_lines =
+    # Don't complain if non-runnable code isn't run:
+    if 0:
+    if __name__ == .__main__.:
+    if DEBUG:
+    pragma: no cover
+[html]
+directory = coverage_html_report
