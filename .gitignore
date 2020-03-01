@@ -110,3 +110,4 @@ data/**
 *.sql
 *.sqlite3
 mymodels.py
+dumps/**
