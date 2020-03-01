@@ -112,3 +112,4 @@ data/**
 mymodels.py
 dumps/**
 migrations/**
+**/migrations/*.py
