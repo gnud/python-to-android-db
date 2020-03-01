@@ -2,7 +2,7 @@
 # We define models for in Android in this module, since we like to make models.py a generic file for any project
 from django.conf import settings
 
-from .mymodels import *
+from databuilder.mymodels import *
 
 
 # Write your tools models here
