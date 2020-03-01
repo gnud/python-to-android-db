@@ -107,7 +107,6 @@ venv.bak/
 databuilder/management/commands/old/**
 data/**
 *.sql
-mymodels.py
 dumps/**
 migrations/**
 **/migrations/*.py
